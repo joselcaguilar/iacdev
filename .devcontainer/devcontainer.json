@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.140.1/containers/docker-existing-dockerfile
+{
+	"name": "CCoEDevImage",
+	"image": "ghcr.io/joselcaguilar/iacdev:0.1",
+	// Custom Codespaces settings
+	"settings": {
+		"files.eol": "\r\n",
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"editor.tabSize": 2,
+		"terminal.integrated.scrollback": 2000,
+	},
+	// Codespaces extensions to be consumed
+	"extensions": [
+		"hashicorp.terraform",
+		"ms-vscode.azurecli",
+		"ms-azure-devops.azure-pipelines",
+		"msazurermtools.azurerm-vscode-tools"
+	]
+}
