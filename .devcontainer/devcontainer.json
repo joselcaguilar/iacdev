@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.140.1/containers/docker-existing-dockerfile
 {
-	"name": "CCoEDevImage",
+	"name": "iacDevImage",
 	"image": "ghcr.io/joselcaguilar/iacdev:0.1",
 	// Custom Codespaces settings
 	"settings": {
